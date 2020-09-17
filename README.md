@@ -1,3 +1,8 @@
+No longer maintained -- you may want to use [`terminal.getch`](https://nim-lang.org/docs/terminal.html#getch)
+in the Nim standard library instead.
+
+<details><summary>Original README</summary>
+
 # getch
 Simple and lightweight `getch()` proc for [Nim](https://github.com/nim-lang/Nim).  
 Should work on all platforms.
@@ -15,3 +20,4 @@ let ch: char = getCh(true)
 
 ## Installation
 `nimble install getch`
+</details>
